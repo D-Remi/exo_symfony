@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+header,footer{
+    background-color: #999;
+    padding: 50px;
+}
+
+
+a{
+    color: white;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav div{
+    width: 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul,footer div ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    padding: 0 50px;
+}
+
+article{
+    width: 60%;
+    margin: 10px auto;
+    height: auto;
+    text-align: center;
+
+}
+
+article .actu{
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+    margin: 50px auto;
+    padding: 0 30px;
+}
+
+.main-container{
+    width: 20%;
+}
+
+.condition{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+

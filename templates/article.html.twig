@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ asset('asset/css/style.css') }}">
+    <title>exo-friday</title>
+</head>
+<body>
+<header>
+    <nav>
+        <div><img src="{{ asset('asset/img/logo.svg.png')  }}"></div>
+        <ul>
+            <li><a href="{{ path('home') }}">Home</a></li>
+            <li><a href="{{ path('article', {'id': 2}) }}">Article</a></li>
+            <li><a href="">A propos</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section>
+        <article class="main-container">
+            <!--
+            je fais  a cette condition pour afficher les article qui
+            qui peuvent etre publier
+            -->
+            {% if article.published %}
+                <div><img src="{{ article.image }}"></div>
+                <h2>{{ article.title | upper}}</h2>
+                <p>{{ article.content }}</p
+            {% else %}
+                <p class="condition">l'article demandé n'est pas publié</p>
+            {% endif %}
+        </article>
+    </section>
+</main>
+<footer>
+    <div>
+        <ul>
+            <li><a href="{{ path('home') }}">Home</a></li>
+            <li><a href="href="{{ path('article', {'id': 1}) }}">Article</a></li>
+            <li><a href="">A propos</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
