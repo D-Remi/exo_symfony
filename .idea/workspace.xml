@@ -6,10 +6,7 @@
       <change afterPath="$PROJECT_DIR$/../exo_new_project/src/Controller/NewHome.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GROStp/codebarre.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/../GROStp/codebarre.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../code-init2/assets/webfonts/fa-regular-400.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/asset/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/asset/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleProject.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleProject.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp07.php/class.rectangle.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp07.php/rectangle.php" beforeDir="false" />
@@ -178,7 +175,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584695234505</updated>
-      <workItem from="1584695236289" duration="14698000" />
+      <workItem from="1584695236289" duration="16261000" />
     </task>
     <servers />
   </component>
