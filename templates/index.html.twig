@@ -20,13 +20,13 @@
 <main>
     <section>
         <article>
-        {% for article in article %}
+        {% for key,article in articles  %}
             <!--
              boucle for afin d'afficher les différents article
              -->
           <div class="actu">
               <div><img src="{{ article.image }}"></div>
-              <h2>{{ article.title }}</h2>
+              <a href="{{ path('article', { 'id': key }) }}">{{ article.title }}</a>
               <p>{{ article.content }}</p>
           </div>
         {% endfor %}

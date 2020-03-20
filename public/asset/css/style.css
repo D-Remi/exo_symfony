@@ -17,10 +17,12 @@ header,footer{
 
 a{
     color: white;
+    background-color: #999;
     text-transform: uppercase;
     list-style: none;
     text-decoration: none;
 }
+
 
 nav div{
     width: 10%;
